@@ -32,7 +32,7 @@ This is a **custom Linux service** I built to showcase:
 ### **Clone & Deploy**
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/linux-timer-service.git
+git clone https://github.com/kaushalacts/linux-timer-service.git
 cd linux-timer-service
 
 # Make installer executable
@@ -101,11 +101,11 @@ After=network.target
 
 [Service]
 Type=simple
-User=laborant
+User=USER_NAME
 ExecStart=/usr/local/bin/timer-script.sh
 Restart=always
 RestartSec=3
-Environment=HOME=/home/laborant
+Environment=HOME=/home/USER_NAME
 
 [Install]
 WantedBy=multi-user.target
@@ -313,18 +313,14 @@ Found a bug? Want to add a feature? Contributions welcome!
 
 ---
 
-## 📝 **License**
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🔗 **Connect With Me**
 
-- 💼 **LinkedIn:** [Your LinkedIn Profile]
-- 🐦 **Twitter:** [@YourTwitter] 
-- 📝 **Blog:** [Your Blog URL]
-- 💻 **GitHub:** [@YourGitHub]
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/kaushalacts/]
+- 📝 **Blog:** [https://kaushalacts.hashnode.dev/how-to-create-your-first-linux-service-in-10-minutes-a-complete-beginners-guide]
+- 💻 **GitHub:** [https://www.github.com/kaushalcts/]
 
 ---
 
@@ -344,9 +340,7 @@ If this project helped you learn something new:
 
 ## 📚 **Related Projects**
 
-- [Advanced System Monitor Service](https://github.com/yourname/system-monitor-service)
-- [Log Rotation Automation](https://github.com/yourname/log-rotation-service)
-- [API Health Checker Service](https://github.com/yourname/api-health-service)
+#
 
 ---
 
