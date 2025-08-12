@@ -1,8 +1,6 @@
-# linux-timer-service
-Build your first Linux service from scratch! Complete tutorial with real debugging scenarios, systemd fundamentals, and practical DevOps skills. No theory - just hands-on learning.
-🎯 What You'll Learn
-
-By the end of this tutorial, you'll have:
+# Linux-Timer-Service
+Linux service from scratch! Complete list with real debugging scenarios, systemd fundamentals, and practical DevOps skills.  
+🎯 Key Insights: 
 
 ✅ Deep understanding of Linux services and systemd
 
